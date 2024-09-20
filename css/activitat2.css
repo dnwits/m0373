@@ -1,0 +1,20 @@
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: rgb(65, 0, 119);
+    font-weight: bold;
+}
+#default{
+    list-style-type: disc;
+}
+
+#cercle{
+    list-style-type: circle;
+}
+
+#square{
+    list-style-type: square;
+}
+.lletra{
+    list-style-type: upper-alpha;
+}
