@@ -1,6 +1,7 @@
 @font-face {
     font-family: 'Poppins';
     src: url('../fonts/Poppins-Italic.ttf');
+    font-family: 'Poppins Italic'
 }
 
 h1, h4 {
@@ -18,6 +19,12 @@ caption{
 
 }
 
+.dias {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
 table{
     text-align: center;
     border-style: groove;
@@ -29,7 +36,7 @@ table{
 td{
     border-style: groove;
     border-collapse: collapse;
-    width: 65px;
+    width: 110px;
     height: 70px;
 }
 
@@ -37,21 +44,14 @@ tr{
     border-style: groove;
     border-collapse: collapse;
     border-width: 2px;
-    padding-top: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px
-    
+    padding: 15px;   
 }
 
 th{
     border-style: groove;
     border-collapse: collapse;
     border-width: 2px;
-    padding-top: 15px;
-    padding-right: 15px;
-    padding-bottom: 15px;
-    padding-left: 15px
+    padding: 15px;
 }
 
 #logo{
@@ -70,7 +70,67 @@ th{
 }
 
 #Tut-Alum-poppins{
-    src: url(../fonts/Poppins-Italic.ttf);
+    font-family: 'Poppins Italic', sans-serif;
     background-color: rgba(126, 240, 202, 0.699);
+    font-size: 14px;
+}
+
+#m04{
+    background-color: rgb(236, 238, 143);
     font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.m03{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgba(230, 122, 194, 0.507);
+    font-size: 15px;
+}
+
+#m16ANG{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgba(188, 223, 132, 0.89);
+    font-size: 16px;
+}
+
+.m01{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(241, 183, 107, 0.89);
+    font-size: 16px;
+}
+
+.m02{
+    font-family: monospace, sans-serif;
+    background-color: rgba(218, 122, 162, 0.89);
+    font-size: 15px;
+}
+
+#m15SOS{
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(204, 188, 248);
+    font-size: 15px;
+}
+
+.m10IPO1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(160, 200, 238);
+    font-size: 14px;
+}
+
+#m14DIG{
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(161, 184, 145);
+    font-size: 16px;
+}
+
+#m05{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(155, 202, 187);
+    font-size: 14px;
+}
+
+.horas{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 13px;
 }
