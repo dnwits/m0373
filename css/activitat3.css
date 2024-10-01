@@ -1,0 +1,59 @@
+h1, h3, h4 {
+    color: rgb(98, 121, 104);
+    text-decoration-line: underline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+caption{
+    font-size: 25px;
+    color: darkslategrey;
+    text-decoration: underline;
+    padding-bottom: 15px;
+
+}
+
+table{
+    text-align: center;
+    border-style: groove;
+    border-width: 2px;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+td{
+    border-style: groove;
+    border-collapse: collapse;
+    width: 65px;
+    height: 70px;
+}
+
+tr{
+    border-style: groove;
+    border-collapse: collapse;
+    border-width: 2px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px
+    
+}
+
+th{
+    border-style: groove;
+    border-collapse: collapse;
+    border-width: 2px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px
+}
+
+#logo{
+    width: 60px;
+}
+
+.aula{
+    font-style: italic;
+}
+
