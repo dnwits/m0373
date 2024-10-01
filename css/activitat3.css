@@ -1,4 +1,9 @@
-h1, h3, h4 {
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Italic.ttf');
+}
+
+h1, h4 {
     color: rgb(98, 121, 104);
     text-decoration-line: underline;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -57,3 +62,15 @@ th{
     font-style: italic;
 }
 
+#patio{
+    text-align: center;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#Tut-Alum-poppins{
+    src: url(../fonts/Poppins-Italic.ttf);
+    background-color: rgba(126, 240, 202, 0.699);
+    font-size: 15px;
+}
