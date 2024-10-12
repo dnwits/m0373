@@ -2,13 +2,72 @@
     font-family: OpenSans;
     src: url('../fonts/OpenSans-NormalFont_wdth\,wght.ttf');
 }
-#meow-fugaz{
-    font-family: "Fugaz One", sans-serif;
+
+html{
+    background-color: rgb(221, 214, 206);
+}
+
+#principal{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px; /* Espacio entre las columnas, ajustable */
+    padding: 20px;
+}
+
+#izq{
+    grid-column: 1 / 2;
+    text-align: center;
+}
+
+#der{
+    grid-column: 2 / 3;
+    text-align: center;
+}
+
+#roboto{
+    font-family: "Roboto", sans-serif;
+    font-weight: 150;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 50px;
+}
+
+.extra{
+    font-family: OpenSans;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+}
+
+span{
+    font-weight: bold;
+    font-style: normal;
+}
+
+.titulos{
+    font-family: "Pacifico", cursive;
+    color:rgb(66, 79, 85);
+    font-weight: lighter;
+    font-size: 25px;
+}
+.autor{
+    font-family: "Lobster", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
-#meow-opensans{
-    font-family: OpenSans;
-    color:rgb(90, 146, 168)
+#inferno{
+    height: 400px;
+    width: 500px;
+    border: double;
+    border-radius: 15px;
+}
+
+#ratas{
+    height: 400px;
+    width: 500px;
+    
+    border: double;
+    border-radius: 15px;
 }
