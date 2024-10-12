@@ -10,21 +10,50 @@
     <h1>Registre</h1>
     <form action="../action.php" method="post">
         <fieldset id="dades">
-            <legend>Dades personals</legend>
+            <legend id="apartado1">Informació personal</legend>
             <label>Nom complet:</label> <br>
-            <input type="text" placeholder="Text" name="nombre"><br><br>
-            <label>Password:</label> <br>
-            <input type="password" name="pass"><br><br>
+            <input type="text" placeholder="Nom Cognom" name="nom" maxlength="30"><br><br> <!--per limitar els caracters-->
+
+            <label>Correu electronic:</label> <br>
+            <input type="email" placeholder="elteucorreu@domini.com" name="email"><br><br>
+
+            <label>Data de naixement:</label> <br>
+            <input type="date" name="data-naixement"> <br><br>
+
+            <label>Sexe:</label> <br>
+            <input type="radio" id="home" name="sexe" value="home">
+            <label for="home">Home</label><br>
+            <input type="radio" id="dona" name="sexe" value="dona" checked="select"> <!--preselecció-->
+            <label for="dona">Dona</label><br>
+            <input type="radio" id="no-binari" name="sexe" value="no-binari">
+            <label for="no-binari">No binari</label> <br>
+            <input type="radio" id="altre" name="sexe" value="altre">
+            <label for="altre">Altre</label><br><br>
+
         </fieldset> <br>
-        <fieldset id="select">
-            <legend>Selecció</legend>
-            <label>Elige tu ciclo</label>
+
+        <fieldset id="esports">
+            <legend id="apartado2">Activitats esportives</legend>
+            <label>Activitat de t'interessen:</label> <br>
+            <input type="checkbox" id="fut" name="fut" value="futbol">
+            <label for="fut">Futbol</label>
+            <input type="checkbox" id="voleibol" name="voleibol" value="voleibol">
+            <label for="voleibol">Voleibol</label>
+            <input type="checkbox" id="basquet" name="basquet" value="basquet">
+            <label for="basquet">Bàsquet</label>
+            <input type="checkbox" id="natacio" name="natacio" value="natacio">
+            <label for="natacio">Natació</label>
+            <input type="checkbox" id="badminton" name="badminton" value="badminton">
+            <label for="badminton">Badminton</label>
+
+            <legend>Categoria:</legend>
             <select>
-            <option value="DAM1">DAM-1</option>
-            <option value="DAW1">DAW-1</option>
-            <option value="ASIX1">ASIX-1</option>
-        </select> <br>
-        </fieldset><br>
+                <option value="Bennjami">Benjamí</option>
+                <option value="Alevi">Aleví</option>
+                <option value="Infantil">Infantil</option>
+            </select>
+
+        </fieldset>
         <input type="submit" value="Contactar">
     </form>
     <p><a href="../index.html">Tornar a l'índex</a></p>

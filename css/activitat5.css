@@ -1,7 +1,48 @@
+h1{
+    color: rgb(153, 216, 140);
+    border-radius: 20px;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    /* text-shadow: 2px 4px 7px rgb(0, 3, 41); */
+    text-shadow: -1px 0 black, 0 2px black, 1px 0 black, 0 -1px black;
+}
 #dades{
     border-color: rgb(188, 206, 171);
     border-width: 5px;
     background-color: rgb(191, 197, 185);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
+    width:625px;
+    margin:auto;
 }
+
+#esports{
+    border-color: rgb(188, 206, 171);
+    border-width: 5px;
+    background-color: rgb(191, 197, 185);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    width:625px;
+    margin:auto;
+}
+
+#apartado1{
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    background-color: rgb(191, 197, 185);
+}
+
+#apartado2{
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    background-color: rgb(191, 197, 185);
+}
+
+body{
+    background-image: url(../imatges/sports.jpg);
+}
+
+
