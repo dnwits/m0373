@@ -11,19 +11,19 @@
     <form action="../action.php" method="post">
         <fieldset id="dades">
             <legend id="apartado1">Informació personal</legend>
-            <label>Nom complet:</label> <br>
+            <label id="categoria1">Nom complet:</label> <br>
             <input type="text" placeholder="Nom Cognom" name="nom" maxlength="30"><br><br> <!--per limitar els caracters-->
 
-            <label>Correu electronic:</label> <br>
+            <label id="categoria2">Correu electronic:</label> <br>
             <input type="email" placeholder="elteucorreu@domini.com" name="email"><br><br>
 
-            <label>Data de naixement:</label> <br>
+            <label id="categoria3">Data de naixement:</label> <br>
             <input type="date" name="data-naixement"> <br><br>
 
-            <label>Sexe:</label> <br>
+            <label id="categoria4">Sexe:</label> <br>
             <input type="radio" id="home" name="sexe" value="home">
             <label for="home">Home</label><br>
-            <input type="radio" id="dona" name="sexe" value="dona" checked="select"> <!--preselecció-->
+            <input type="radio" id="dona" name="sexe" value="dona" checked> <!--preselecció-->
             <label for="dona">Dona</label><br>
             <input type="radio" id="no-binari" name="sexe" value="no-binari">
             <label for="no-binari">No binari</label> <br>
@@ -34,7 +34,7 @@
 
         <fieldset id="esports">
             <legend id="apartado2">Activitats esportives</legend>
-            <label>Activitat de t'interessen:</label> <br>
+            <label id="categoria5">Activitat de t'interessen:</label> <br>
             <input type="checkbox" id="fut" name="fut" value="futbol">
             <label for="fut">Futbol</label>
             <input type="checkbox" id="voleibol" name="voleibol" value="voleibol">
@@ -46,15 +46,17 @@
             <input type="checkbox" id="badminton" name="badminton" value="badminton">
             <label for="badminton">Badminton</label>
 
-            <legend>Categoria:</legend>
+            <br><br><label id="categoria6">Categoria:</label>
             <select>
                 <option value="Bennjami">Benjamí</option>
                 <option value="Alevi">Aleví</option>
                 <option value="Infantil">Infantil</option>
             </select>
+        </fieldset><br>
 
+        <fieldset id="contact">
+            <input type="submit" value="Contactar" id="boton">
         </fieldset>
-        <input type="submit" value="Contactar">
     </form>
     <p><a href="../index.html">Tornar a l'índex</a></p>
           <img src="../imatges/valid-activitat5.PNG" alt="valid-activitat3">
