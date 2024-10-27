@@ -1,11 +1,152 @@
 html{
-    background-color: rgb(210, 245, 176);
-}
-h1{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-left: 20px;
+    background-color: rgb(39, 33, 34);
 }
 
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 15% 85%;
+    background-color: rgb(63, 55, 58);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+header #titol{
+    transform: rotate(-1.75deg);
+}
+
+div img{
+    grid-column: 1 /2 ;
+    width: 150px;
+    height: 110px;
+}
+
+#content{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+}
+
+nav li:hover{
+    grid-template-columns: 1 / 2;
+    background-color: rgb(209, 152, 168);
+}
+
+nav{
+    background-color: rgb(100, 93, 100);
+    padding: 15px;
+    color: wheat;
+}
+
+li{
+    font-size: 18px;
+    line-height: 37px;
+}
+
+main{
+    grid-template-columns: 2 / 3;
+    text-align: justify;
+    color: wheat;
+    padding: 20px;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(128, 87, 94);
+}
+
+article{
+    grid-template-columns: 3 / 4;
+    background-image: url(../imatges/metalocalypse.jpg);
+    background-size: 335px 540px;
+    background-position-x: 35%;
+    background-position-y: 15%;
+    background-repeat: repeat;
+    border-radius:  20px 20px 20px 20px;
+    color: rgb(65, 59, 59);
+}
+
+#grande{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    height: 130px;
+}
+
+#izq{
+    grid-column: 1 / 2;
+    background-color: rgb(63, 27, 39);
+}
+
+#lista2 li{
+    display: inline;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 17px;
+    text-align: center;
+    background-color: rgb(211, 136, 167);
+    padding: 7px;
+}
+
+#cent{
+    background-color: rgb(82, 53, 69);
+    display: flex;
+    /*justify-content: space-around;*/
+    grid-column: 2 / 3;
+    padding: 20px;
+}
+
+.album{
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+.album img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#album1{
+    left: 18%;
+    top: 5%;
+    transform: rotate(-10deg);
+}
+
+#album2{
+    left: 17%;
+    top: 2%;
+    transform: rotate(10deg);
+}
+
+#album3{
+    left: 16%;
+    top: 7%;
+    transform: rotate(15deg);
+}
+
+.album:hover{
+    width: 120px;
+    height: 120px;
+}
+
+#der{
+    grid-column: 3 / 4;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+    color: aliceblue;
+    background-color: rgb(88, 48, 64);
+}
+
+#der img{
+    width: 125px;
+    height: 75px;
+    transition: width 3s, height 3s;
+}
+#der img:hover{
+    width: 275px;
+    height: 150px;
 }
