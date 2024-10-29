@@ -20,10 +20,11 @@ header #titol{
     transform: rotate(-1.75deg);
 }
 
-div img{
+header img{
     grid-column: 1 /2 ;
     width: 150px;
     height: 110px;
+    margin-left: 50px;
 }
 
 #content{
