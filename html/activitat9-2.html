@@ -7,22 +7,26 @@
     <title>Activitat 9-2</title>
 </head>
 <body>
-    <div>I only have a top padding (1.5rem = 24px) and backgroung warning</div>
-    <div>I have a padding on all sides (3rem = 48px) and backgroung succes</div>
-    <div>I have a margin on all sides (3rem = 48px) and a bottom padding (3rem = 48px)
-        and background info
+    <!--Els paddings i margins especificats no s'aplicaven, no se si per el tipus de dispositiu...
+    Al final els he fet a ull i més o menys s'assemblen-->
+    <div class="container-fluid">
+        <div class="bg-warning pt-4">I only have a top padding (1.5rem = 24px) and backgroung warning</div>
+        <div class="bg-success p-5">I have a padding on all sides (3rem = 48px) and backgroung succes</div>
+        <div class="bg-info m-5 pb-5">I have a margin on all sides (3rem = 48px) and a bottom padding (3rem = 48px)
+            and background info
+        </div>
     </div>
-
-    <div class="container">
-        <h3>Absència</h3>
-        <p>És bo tenir sempre a punt el recurs</p>
-        <p>d'un mot que empleni el buit de tu, per fer-ne</p>
-        <p>la pertinent cuirassa que em preservi</p>
-        <p>del malson de l'enyor i la tristesa.</p>
+    <!-- Els marges i els paddings son de longitud 5...-->
+    <div class="container-fluid border border-3 pt-5">
+        <h3 class="border text-danger">Absència</h3>
+        <p class="border container px-5 my-5">És bo tenir sempre a punt el recurs</p>
+        <p class="border my-5">d'un mot que empleni el buit de tu, per fer-ne</p>
+        <p class="border m-5 p-5">la pertinent cuirassa que em preservi</p>
+        <p class="border">del malson de l'enyor i la tristesa.</p>
       </div>
       
     <p><a href="../index.html">Tornar a l'índex</a></p>
-    <img src="../imatges/valid-activitat5.PNG" alt="valid-activitat5">
+    <img src="../imatges/valid-activitat9-2.PNG" alt="valid-activitat9-2">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
