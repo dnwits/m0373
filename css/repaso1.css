@@ -1,0 +1,71 @@
+#contenido{
+    display: grid;
+    grid-template-columns: auto 50% auto;
+}
+
+nav{
+    background-color: burlywood;
+    grid-column: 1/2;
+}
+main{
+    background-color: cadetblue;
+    grid-column: 2/3;
+    padding: 20px;
+}
+aside{
+    background-color: tomato;
+    grid-column: 3/4;
+}
+
+table{
+    text-align: center;
+    border-style: groove;
+    border-width: 2px;
+    border-collapse: collapse;
+    margin: auto;
+    background-color: rgb(128, 193, 196);
+    font-size: 20px;
+}
+td{
+    border-style: groove;
+    border-collapse: collapse;
+    width: 110px;
+    height: 70px;
+}
+
+tr{
+    border-style: groove;
+    border-collapse: collapse;
+    border-width: 2px;
+    padding: 15px;   
+}
+
+th{
+    border-style: groove;
+    border-collapse: collapse;
+    border-width: 2px;
+    padding: 15px;
+}
+#pie{
+    display: grid;
+    grid-template-columns: 33% auto 33%;
+}
+footer{
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+#peu1{
+    background-color: pink;
+    background-image: linear-gradient(pink, rgb(215, 106, 224));
+    grid-column: 1/2;
+}
+#peu2{
+    background-color: rgb(130, 104, 189);
+    grid-column: 2/3;
+    border-radius: 30px;
+}
+#peu3{
+    background-color: rgb(104, 189, 118);
+    grid-column: 3/4;
+}
