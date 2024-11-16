@@ -1,0 +1,1 @@
+//Crea un document HTML amb un script que calcula una suma i afegeix el resultat a un element <div> buit:
