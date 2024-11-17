@@ -1,0 +1,9 @@
+div{
+    padding: 15px;
+    border-style: solid;
+    width: 250px;
+    height: 100px;
+    margin: 15px;
+    background-color: lightpink;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
