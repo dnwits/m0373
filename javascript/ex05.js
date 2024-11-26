@@ -6,9 +6,9 @@
 // Asumimos que las funciones sumar, calcularPromedio y comprobarEdad ya están definidas
 function VerficarMayorDeEdat(edad) {
     if (edad >= 18) {
-      return "Ets major d’edat";
+      return "Ets major d'edat";
     } else {
-      return "Ets menor d’edat";
+      return "Ets menor d'edat";
     }
   }
 function sumar(numero1, numero2) {
@@ -29,7 +29,7 @@ function actualizarDivs() {
     div2.innerHTML = "La mitjana de 8 i 4 és: " + calcularMitjana(8, 4);
     let edadUser = prompt("Introduexi la seva edat");
     edadUser = Number(edadUser);
-    div3.append(VerficarMayorDeEdat(edadUser));
+    div3.append(' - '+VerficarMayorDeEdat(edadUser));
 }
-
+// cridar funció que conté a les altres
 actualizarDivs();

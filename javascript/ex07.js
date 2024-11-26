@@ -15,7 +15,7 @@ const img_total = document.getElementsByTagName('img');
 for (let imagen of img_total) {
   imagen.style.width = '200px';
   imagen.style.height = '300px';
-  imagen.style.margin = '15px';
+  imagen.style.margin = '25px';
 }
 
 // metodo para aplicar los estilos con dos parametros de entrada
@@ -30,10 +30,11 @@ const elementosB = document.getElementsByClassName('B');
 const elementosC = document.getElementsByClassName('C');
 const elementosD = document.querySelectorAll('.D');
 
-aplicarEstilo(elementosA, '5px solid yellow');
-aplicarEstilo(elementosB, '3px dotted red');
-// innecesario pero para rellenar (estilo de C)
+aplicarEstilo(elementosA, '7px solid yellow');
+aplicarEstilo(elementosB, '4px dotted red');
+// clase D
 aplicarEstilo(elementosC, '7px double purple')
+elementosC[1].style.borderRadius = '48%';
 
 // cambiar el border radius de solo el primer elemento de B (por posición)
 elementosB[0].style.borderRadius = '30%';
