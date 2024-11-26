@@ -30,8 +30,8 @@ const elementosB = document.getElementsByClassName('B');
 const elementosC = document.getElementsByClassName('C');
 const elementosD = document.querySelectorAll('.D');
 
-aplicarEstilo(elementosA, '7px solid yellow');
-aplicarEstilo(elementosB, '4px dotted red');
+aplicarEstilo(elementosA, '5px solid yellow');
+aplicarEstilo(elementosB, '3px dotted red');
 // clase D
 aplicarEstilo(elementosC, '7px double purple')
 elementosC[1].style.borderRadius = '48%';
@@ -40,6 +40,6 @@ elementosC[1].style.borderRadius = '48%';
 elementosB[0].style.borderRadius = '30%';
 
 elementosD.forEach(elemento => {
-    elemento.style.border = '3px dashed green';
+    elemento.style.border = '4px dashed green';
     elemento.style.borderRadius = '30px';
 });
