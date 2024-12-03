@@ -67,19 +67,21 @@ colores.forEach(elemento => {
 // Fer zoom vol dir augmentar el width i el height amb 50px
 let zMenos = document.getElementById("out");
 let zMas = document.getElementById("in");
+let imgenCentro = document.getElementById("principal");
 console.log(zMas,zMenos);
 
 zMenos.addEventListener("click", zoomOut);
 zMas.addEventListener("click", zoomIn);
+
 function zoomOut (e){
-    let dim = imgCentral.offsetWidth;
+    let dim = imgenCentro.offsetWidth;
     console.log(dim);
-    imgCentral.style.height = (dim+50) + px;
-    imgCentral.style.width = (dim+50) + px;
+    imgenCentro.style.height = (dim-50)+"px";
+    imgenCentro.style.width = (dim-50) +"px";
 }
 function zoomIn (e){
-    let dim = imgCentral.offsetWidth;
+    let dim = imgenCentro.offsetWidth;
     console.log(dim);
-    imgCentral.style.height = (dim-50) +px;
-    imgCentral.style.width = (dim-50) + px;
+    imgenCentro.style.height = (dim+50) +"px";
+    imgenCentro.style.width = (dim+50) + "px";
 }
