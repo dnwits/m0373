@@ -14,15 +14,16 @@ function ocultar_mostrar (){
     }
 }
 boton.addEventListener("click", ocultar_mostrar);
-// function mostrar (){
+
+
+// let botoncss = document.getElementById("botonCSS");
+// //let paragraf = document.getElementsByClassName("p");
+// function cambiarEstilo(){
+//     caixa.textContent = "cambiado";
+//     caixa.classList.add = "nuevoEstilo";
+// }
+// botoncss.addEventListener("click", cambiarEstilo);
+// // function mostrar (){
 //     caixa.style.visibility = "visible";
 //     boton.innerHTML = "Ocultar Caja"
-// }
-
-
-//boton.addEventListener("click", mostrar);
-// if (caixa.style.visibility = "visible"){
-//     boton.addEventListener("click", mostrar);
-// }else {    
-// boton.addEventListener("click", ocultar);
 // }
