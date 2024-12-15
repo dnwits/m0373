@@ -30,7 +30,9 @@ function afegirTasca(){
     borrarBoton.addEventListener("click", ()=> {
         nuevo.remove();
     })   
+    //li apliquem la classe de css per al botò de borrar
     borrarBoton.classList.add("deleteBtn");
+    // afeguir a cada li nuevo un boton de borrar
     nuevo.appendChild(borrarBoton); 
 
     lista.appendChild(nuevo);

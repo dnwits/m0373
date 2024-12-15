@@ -34,7 +34,7 @@
 //SENSE ID'S
 let imgCentral = document.getElementById("principal"); //declarar img central
 let imgTotes = document.querySelectorAll("#images img"); //declarar elementos dent4ro del div
-
+console.log(imgTotes);
 function changeImg (e){ //ordenado en función
     imgCentral.setAttribute("src",e.target.getAttribute("src"));
 }
